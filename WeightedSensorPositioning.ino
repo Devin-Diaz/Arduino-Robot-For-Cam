@@ -1,5 +1,10 @@
 /*
-This Arduino program calculates a weighted position based on readings from three sensors, likely used for position detection or balancing purposes. It initializes the serial communication, reads values from three analog sensors, and computes a weighted average by multiplying each sensor reading by its index and a factor of 1000. It then calculates the total sum of sensor values. The position is determined as the ratio of the weighted average to the total sensor sum. These values (weighted average, sum, and position) are printed to the serial monitor every two seconds. The approach can be particularly useful in applications where sensor positioning relative to a specific point is critical, such as in robotics or automated systems.
+This Arduino program calculates a weighted position based on readings from three sensors, likely used for position detection 
+or balancing purposes. It initializes the serial communication, reads values from three analog sensors, and computes a weighted 
+average by multiplying each sensor reading by its index and a factor of 1000. It then calculates the total sum of sensor values. 
+The position is determined as the ratio of the weighted average to the total sensor sum. These values (weighted average, sum, and position)
+are printed to the serial monitor every two seconds. The approach can be particularly useful in applications where sensor positioning relative 
+to a specific point is critical, such as in robotics or automated systems.
 */
 
 
