@@ -1,5 +1,9 @@
 /*
-This Arduino program implements a PID controller for a line-following robot. It reads analog values from three sensors (left, middle, right) to determine the robot's position relative to a line. Based on these readings, it calculates a PID (Proportional, Integral, Derivative) control value to adjust the speeds of two motors, ensuring the robot follows the line accurately. The motor_drive function then applies these speed adjustments to the motors. The code also includes functions for sensor reading, PID calculations, and motor control. The system operates in a loop, continually adjusting based on sensor input to maintain the set path.
+This Arduino program implements a PID controller for a line-following robot. It reads analog values from three sensors (left, middle, right) to 
+determine the robot's position relative to a line. Based on these readings, it calculates a PID (Proportional, Integral, Derivative) control value to 
+adjust the speeds of two motors, ensuring the robot follows the line accurately. The motor_drive function then applies these speed adjustments to the 
+motors. The code also includes functions for sensor reading, PID calculations, and motor control. The system operates in a loop, continually adjusting 
+based on sensor input to maintain the set path.
 */
 
 
